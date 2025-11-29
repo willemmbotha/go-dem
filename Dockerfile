@@ -22,6 +22,6 @@ WORKDIR /app
 
 COPY --from=builder /app/go-demo-backend .
 
-EXPOSE 80
+EXPOSE 3012
 
 CMD ["./go-demo-backend"]
